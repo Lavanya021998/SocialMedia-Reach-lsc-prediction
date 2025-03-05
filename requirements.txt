@@ -10,3 +10,4 @@ seaborn
 simple-colors
 streamlit
 xgboost
+pip
