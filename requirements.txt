@@ -7,4 +7,7 @@ pandas
 plotly
 seaborn
 streamlit
-sklearn
+scikit-learn
+simple-colors
+xgboost
+
