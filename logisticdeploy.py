@@ -238,10 +238,10 @@ st.subheader(":blue[Predictions For Given Data:]")
 
 cola, colb = st.columns(2)
 with cola:
-    fbutton1 = st.button("Prediction for Multiple reach columns By Uploading file...", 
+    fbutton1 = st.button("Prediction of Likes,Shares,Comments of multiple rows By Uploading file...", 
                          on_click=switch_fbutton_state1, icon=':material/table:', key="multi_regress")
 with colb:
-    sbutton1 = st.button("Prediction for Single reach column by Entering Data.....", 
+    sbutton1 = st.button("Prediction of Likes,shares,Comments for Single row by Entering Data.....", 
                          on_click=switch_sbutton_state1, icon=':material/input:', key="single_regress")
 # Conditions for Predictions Based on Selection
 if st.session_state['fbutton1'] == True:
